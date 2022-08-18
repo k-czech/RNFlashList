@@ -1,0 +1,13 @@
+{
+  "root": true,
+  "extends": [
+    "@react-native-community/eslint-config",
+    "eslint-config-prettier",
+    "eslint-config-prettier/@typescript-eslint",
+    "eslint-config-prettier/react"
+  ],
+  "rules": {
+    "eslint-comments/no-unlimited-disable": 0,
+    "@typescript-eslint/no-unused-vars": ["error", { "varsIgnorePattern": "^_", "ignoreRestSiblings": true }]
+  }
+}
